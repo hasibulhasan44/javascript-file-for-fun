@@ -151,3 +151,26 @@ for(let i=0; i<items.length; i++){
     const item = items[i]
     console.log(item);
 }
+
+// question no 10
+function displayElderNums(something){
+    for(let i = 0; i < something.length; i++){
+        const index = i;
+        const element = something[index];
+        if(element > 80){
+            console.log(index ,element);
+        }
+    }
+}
+
+let something = [100, 20, 30, 85, 90, 45, 80];
+let daki = displayElderNums(something)
+
+// question no 11
+function multiplicationOfNumbers(num1, num2, num3){
+    let result = num1*num2*num3;
+    return result;
+}
+
+let output = multiplicationOfNumbers(10, 10, 10);
+console.log(output);
