@@ -174,3 +174,5 @@ function multiplicationOfNumbers(num1, num2, num3){
 
 let output = multiplicationOfNumbers(10, 10, 10);
 console.log(output);
+
+// question no 12

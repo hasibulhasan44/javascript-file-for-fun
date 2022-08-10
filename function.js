@@ -25,7 +25,7 @@ value(32, 20, 36, 99, 58, 60);
 
 function add(a, b, c, d, e, f, g, h){
     var sum = a+b+c+d+e+f+g+h;
-    return 'komla';
+    return sum;
 }
 
 var total = add(8, 89, 85, 87, 4, 5, 412, 12);
